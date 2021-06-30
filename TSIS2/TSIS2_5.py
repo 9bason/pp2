@@ -1,10 +1,10 @@
 n = str(input())
-su=0
-mu=1
+a=0
+b=1
 
 for i in range(0,len(n)):
-    su=su+int(n[i])
-    mu=mu*int(n[i])
+    a=a+int(n[i])
+    b=b*int(n[i])
 
-sub=mu-su
-print(sub)
+total=b-a
+print(total)
