@@ -10,6 +10,7 @@ fps = 30  # Frames per second
 screen = pygame.display.set_mode(size)
 clock = pygame.time.Clock()
 pygame.display.update()
+pygame.display.set_caption("Hungry Lion game by Miras Ashir")
 
 background = 'background.png'
 background = pygame.image.load(background)
